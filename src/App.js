@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -94,8 +93,8 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-pakistan"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -107,7 +106,7 @@ class App extends Component {
                 window.$primaryLanguageIconId
               )
             }
-            style={{ display: "inline" }}
+            style={{ display: "none" }}
           >
             <span
               className="iconify language-icon"
