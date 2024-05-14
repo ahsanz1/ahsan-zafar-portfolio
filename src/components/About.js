@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import nextJsIcon from "@iconify/icons-logos/nextjs-icon";
+import jsIcon from "@iconify/icons-logos/javascript";
+import tsIcon from "@iconify/icons-logos/typescript-icon";
 
 class About extends Component {
   render() {
@@ -31,18 +32,12 @@ class About extends Component {
                     alt="Avatar placeholder"
                     style={{ objectFit: "cover" }}
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <div className="profile-icons">
+                    <Icon icon={reactIcon} className="profile-icons__icon" />
+                    <Icon icon={nextJsIcon} className="profile-icons__icon" />
+                    <Icon icon={jsIcon} className="profile-icons__icon" />
+                    <Icon icon={tsIcon} className="profile-icons__icon" />
+                  </div>
                 </span>
               </div>
             </div>

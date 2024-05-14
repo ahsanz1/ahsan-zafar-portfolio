@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Ahsan Zafar, senior Javascript Engineer :) I have 2.5 years of experience working with ReactJS, NextJS, Javascript and Typescript.💜",
+    "description": "👋 I'm Ahsan Zafar, an experienced Full Stack JavaScript Engineer with 4 years of experience in developing medium to large scale web applications. Proficient with ReactJS and NextJS, familiar with MongoDB and Firebase Cloud. Skilled in front-end development with expertise in developing e-commerce storefronts using NextJS and ReactJS with the ability to handle NodeJS and ExpressJS backends. Passionate about crafting scalable web applications with excellent user experiences, committed to continuous improvement and innovation.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,14 +11,69 @@
   },
   "projects": [
     {
+      "title": "L'azurde E-commerce Storefront",
+      "startDate": "2023",
+      "description": "L'azurde is a premium jewelry designer and manufacturer with stores in KSA. Explore our exquisite collection of gold, diamond, pearl & gemstone jewelry. I lead the team that developed their headless e-commerce storefront powered by BigCommerce.",
+      "images": [
+        "images/portfolio/lazurde/lazurde-1.png",
+        "images/portfolio/lazurde/lazurde-2.png",
+        "images/portfolio/lazurde/lazurde-3.png",
+        "images/portfolio/lazurde/lazurde-4.png",
+        "images/portfolio/lazurde/lazurde-5.png",
+        "images/portfolio/lazurde/lazurde-6.png",
+        "images/portfolio/lazurde/lazurde-7.png",
+        "images/portfolio/lazurde/lazurde-8.png",
+        "images/portfolio/lazurde/lazurde-9.png",
+        "images/portfolio/lazurde/lazurde-10.png",
+        "images/portfolio/lazurde/lazurde-11.png"
+      ],
+      "url": "https://lazurde.com",
+      "technologies": [
+        {
+          "name": "NextJS",
+          "class": "devicon-nextjs-original-wordmark"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "Sass"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain"
+        }
+      ]
+    },
+    {
       "title": "Syntec Business Website",
       "startDate": "2020",
-      "description": "Syntec Business Website is a sample startup/business website, built using ReactJS and Bootstrap. The website introduces the business and shows how the business can communicate with their potential customers.",
+      "description": "Syntec Business Website is a sample startup/business website, built using ReactJS and Bootstrap.",
       "images": [
         "images/portfolio/syntec/syntec-1.jpg",
-        "images/portfolio/syntec/syntec-2.jpg"
+        "images/portfolio/syntec/syntec-2.jpg",
+        "images/portfolio/syntec/syntec-3.png",
+        "images/portfolio/syntec/syntec-4.png"
       ],
-      "url": "",
+      "url": "https://syntec-business-website.vercel.app",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -40,9 +95,10 @@
       "description": "HeadlineX is a news website built using ReactJS and GNews API. The website displays top headlines, news by category and allows topic search.",
       "images": [
         "images/portfolio/headlinex/headlinex-1.jpg",
-        "images/portfolio/headlinex/headlinex-2.jpg"
+        "images/portfolio/headlinex/headlinex-2.jpg",
+        "images/portfolio/headlinex/headlinex-3.png"
       ],
-      "url": "https://github.com",
+      "url": "https://headlinex-news-website.vercel.app",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -62,7 +118,7 @@
         "images/portfolio/vibe-music/vibe-music-1.jpg",
         "images/portfolio/vibe-music/vibe-music-2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://vibe-music.vercel.app",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -78,9 +134,26 @@
   "experience": [
     {
       "company": "ShopDev",
-      "title": "JavaScript Developer",
-      "years": "07.2020 - present",
-      "mainTech": ["React 16/17/18"],
+      "title": "Senior Software Engineer",
+      "years": "10.2021 - present",
+      "mainTech": ["React", "NextJS", "TypeScript"],
+      "technologies": [
+        "ReactJS",
+        "NextJS",
+        "JavaScript",
+        "Typescript",
+        "Redux",
+        "NodeJS",
+        "TailwindCSS",
+        "MongoDB"
+      ],
+      "icon": "react"
+    },
+    {
+      "company": "ShopDev",
+      "title": "Software Engineer",
+      "years": "07.2020 - 10.2021",
+      "mainTech": ["React", "NextJS", "JavaScript"],
       "technologies": [
         "REST API",
         "ReactJS",
@@ -90,14 +163,22 @@
         "Ant Design",
         "NextJS",
         "Redux"
-      ]
+      ],
+      "icon": "react"
     },
     {
       "company": "Spirebay Solutions",
       "title": "Front-End Developer",
       "years": "01.2020 - 06.2020",
-      "mainTech": ["Angular, ReactJS 7/8"],
-      "technologies": ["RxJS", "JavaScript", "Typescript", "Firebase"]
+      "mainTech": ["Angular", "NodeJS", "Firebase"],
+      "technologies": [
+        "RxJS",
+        "JavaScript",
+        "Typescript",
+        "Firebase",
+        "ExpressJS"
+      ],
+      "icon": "angular"
     }
   ]
 }

@@ -10,19 +10,39 @@
     "social": [
       {
         "name": "github",
-        "url": "https://github.com",
+        "url": "https://github.com/ahsanz1",
         "class": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ahsan-zafar-59721b190/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpeg"
   },
   "skills": {
     "icons": [
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "95"
+      },
+      {
+        "name": "NextJS",
+        "class": "devicon-nextjs-original-wordmark",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
       {
         "name": "HTML 5",
         "class": "devicon-html5-plain",
@@ -34,24 +54,19 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "devicon-angularjs-plain",
-        "level": "80"
-      },
-      {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "90"
-      },
-      {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
-      },
-      {
         "name": "Sass",
         "class": "devicon-sass-original",
         "level": "75"
+      },
+      {
+        "name": "TailwindCSS",
+        "class": "devicon-tailwindcss-original",
+        "level": "75"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
       },
       {
         "name": "Bootstrap",
@@ -59,14 +74,24 @@
         "level": "85"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "75"
       },
       {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
-        "level": "60"
+        "name": "ExpressJS",
+        "class": "devicon-express-original",
+        "level": "75"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "75"
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "75"
       }
     ]
   }
